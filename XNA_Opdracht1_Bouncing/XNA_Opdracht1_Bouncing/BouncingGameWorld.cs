@@ -9,8 +9,7 @@ namespace Opdracht1_Bouncing {
     /// This is the main type for your game
     /// </summary>
     public class BouncingGameWorld : GameEnvironment {
-        public BouncingGameWorld()
-            : base() {
+        public BouncingGameWorld() {
             Content.RootDirectory = "Content";
         }
 
@@ -22,10 +21,10 @@ namespace Opdracht1_Bouncing {
             base.LoadContent();
 
             screen = new Point(1000, 552);
-            this.SetFullScreen(false);
-            gameStateManager.AddGameState("playingState", new PlayingState());
+            SetFullScreen(false);
+            gameStateManager.AddGameState(nameof(PlayState), new PlayState());
 
-            gameStateManager.SwitchTo("playingState");
+            gameStateManager.SwitchTo(nameof(PlayState));
         }
     }
 }

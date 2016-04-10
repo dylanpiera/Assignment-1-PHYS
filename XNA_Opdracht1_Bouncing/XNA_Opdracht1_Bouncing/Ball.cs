@@ -1,9 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Input;
 
 namespace Opdracht1_Bouncing {
-    class Ball : SpriteGameObject {
+    internal class Ball : SpriteGameObject {
         private float radius;
 
         // step 4: Declare variable for the acceleration
@@ -14,7 +12,7 @@ namespace Opdracht1_Bouncing {
             : base(assetName, 0, "ball") {
             this.position = position;
             this.velocity = velocity;
-            origin = new Vector2(Width / 2, Height / 2);
+            origin = new Vector2(Width / 2f, Height / 2f);
             this.radius = radius;
             scale = radius * 2 / Width;
         }
