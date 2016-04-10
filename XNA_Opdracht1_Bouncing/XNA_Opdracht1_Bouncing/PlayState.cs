@@ -2,8 +2,8 @@
 using System;
 
 namespace Opdracht1_Bouncing {
-    class PlayingState : GameObjectList {
-        public PlayingState()
+    class PlayState : GameObjectList {
+        public PlayState()
             : base() {
             ///////////
             // Example:
