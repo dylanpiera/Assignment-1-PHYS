@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht1_Bouncing", "X
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNA_Opdracht1_BouncingContent", "XNA_Opdracht1_Bouncing\XNA_Opdracht1_BouncingContent\XNA_Opdracht1_BouncingContent.contentproj", "{9FC36BB3-2056-42EB-84A0-621CD50FF4D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManagement", "XNA_Opdracht3_Steering\GameManagement\GameManagement\GameManagement.csproj", "{81460380-4FF0-4EC0-9586-389E598C9F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
